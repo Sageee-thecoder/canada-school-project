@@ -1,0 +1,37 @@
+#goButton_pg3{
+    display: block;
+    margin: 20px auto;
+    padding: 10px 20px;
+    font-size: 18px;
+    background: transparent;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    transform: scale(1);
+}
+
+#goButton_pg3:hover{
+    background-color: rgba(255, 255, 255, 0.2);
+    transition: background-color 0.3s ease;
+    transform: scale(1.05) ease-in-out;
+}
+
+p{
+    font-family: "Playfair Display", serif;
+    font-size: 20px;
+    line-height: 1.5;
+    color: #222222;
+    margin-bottom: 28px;
+}
+
+.text-container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.8);
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    width: 90rem;
+    height: 28rem;
+}

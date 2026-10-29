@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Geographical Information</title>
+</head>
+<style>        
+    body {
+        font-family: system-ui, -apple-system, sans-serif;
+        background-color: #f4f6f8;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        min-height: 100vh;
+        margin: 0;
+        padding: 20px;
+    }
+
+    .info-card {
+        background: #ffffff;
+        width: 100%;
+        max-width: 500px;
+        border-radius: 12px;
+        box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+        padding: 24px 32px;
+    }
+
+    .info-card h1 {
+        margin-top: 0;
+        font-size: 1.5rem;
+        color: #1a1a1a;
+        border-bottom: 2px solid #e5e7eb;
+        padding-bottom: 12px;
+        margin-bottom: 16px;
+    }
+
+    .info-grid {
+        display: grid;
+        grid-template-columns: 140px 1fr;
+        row-gap: 12px;
+        column-gap: 16px;
+        font-size: 0.95rem;
+    }
+
+    .label {
+        font-weight: 600;
+        color: #4b5563;
+    }
+
+    .value {
+        color: #111827;
+    }
+    .earth-map img{
+        width:200px;
+        height:195px;
+    }
+    #goButton_pg5{
+    display: block;
+    margin: 20px auto;
+    padding: 10px 20px;
+    font-size: 18px;
+    background: transparent;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    transform: scale(1);
+    width: 6.4rem;
+    height: 4.3rem;
+    text-align: center;
+    }
+
+    #goButton_pg5:hover{
+        background-color: rgba(255, 255, 255, 0.2);
+        transition: background-color 0.3s ease;
+        transform: scale(1.05), ease-in-out;
+    }
+</style>
+<body>
+
+ <div class="info-card">
+        <h1>Geographical Information</h1>
+        <div class="info-grid">
+            <span class="label">Name:</span>
+            <span class="value">Canada</span>
+
+            <span class="label">Capital City:</span>
+            <span class="value">Ottawa</span>
+
+            <span class="label">Population:</span>
+            <span class="value">41,000,000</span>
+
+            <span class="label">Area:</span>
+            <span class="value">9,984,670 km²</span>
+
+            <span class="label">Languages:</span>
+            <span class="value">English and French</span>
+
+            <span class="label">Largest City:</span>
+            <span class="value">Toronto</span>
+
+            <span class="label">Currency:</span>
+            <span class="value">Canadian Dollar (CAD)</span>
+
+            <span class="label">Demonym:</span>
+            <span class="value">Canadian</span>
+
+            <span class="label">Government:</span>
+            <span class="value">Federal parliamentary constitutional monarchy</span>
+
+            <span class="label">Monarch:</span>
+            <span class="value">King Charles III</span>
+
+            <span class="label">Governor General:</span>
+            <span class="value">Louise Arbour</span>
+
+            <span class="label">Prime Minister:</span>
+            <span class="value">Mark Carney</span>
+        </div>
+<h1>                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                </h1>
+        <div class="earth-map">
+            <img src="https://thumb.wikimedia.org/wikipedia/commons/thumb/6/67/CAN_orthographic.svg/960px-CAN_orthographic.svg.png?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail"/>
+            <h1> Canada's Place on Earth </h1>
+            <h4> Location: Canada is in America, at latitude 56.130366 and longitude -106.346771. It lies in the northern and western hemispheres. </h4>
+        </div>
+        <button id="goButton_pg5" onclick="window.location.href='thanks.html'"><h1>GO</h1></button>
+    </div>
+</body>
+
+</html>

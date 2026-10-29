@@ -1,0 +1,44 @@
+h1, h2, #Motto {
+    text-align: center;
+    font-family: "Redaction", serif;
+}
+
+.Anthems {
+    text-align: center;
+    font-family: "Jost", sans-serif;
+    align-items: center;
+    h3 {
+        font-family: "Playfair Display", serif;
+    }
+    audio {
+        margin: 10px;
+        color: #836767;
+    }
+    #O_Canada, #Royal_anthem_Canada {
+        width: 300px;
+        height: 50px;
+        border-radius: 5px;
+    }
+}
+
+#goButton_pg4{
+    display: block;
+    margin: 20px auto;
+    padding: 10px 20px;
+    font-size: 18px;
+    background: transparent;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    transform: scale(1);
+    width: 6.4rem;
+    height: 4.3rem;
+    text-align: center;
+}
+
+#goButton_pg4:hover{
+    background-color: rgba(255, 255, 255, 0.2);
+    transition: background-color 0.3s ease;
+    transform: scale(1.05), ease-in-out;
+}
