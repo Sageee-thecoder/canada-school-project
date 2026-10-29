@@ -2,6 +2,8 @@
 
 A small, static website introducing Canada. It was created as a school presentation and guides visitors through a sequence of pages about the country, its flag, anthems, and geography.
 
+(Don't forget to check my page for more projects!)
+
 ## Contents
 
 The site follows this navigation:
